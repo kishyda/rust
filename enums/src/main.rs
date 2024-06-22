@@ -2,6 +2,7 @@ mod calculator;
 mod enumeration2;
 mod enumeration3;
 mod enumerations;
+mod trolling;
 fn main() {
   let pressed = enumerations::WebEvent::KeyPress('x');
   enumerations::inspect(pressed);

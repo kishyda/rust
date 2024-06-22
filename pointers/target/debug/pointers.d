@@ -1,0 +1,1 @@
+/Users/ykp/Dev/Rust/pointers/target/debug/pointers: /Users/ykp/Dev/Rust/pointers/src/main.rs /Users/ykp/Dev/Rust/pointers/src/pointer.rs /Users/ykp/Dev/Rust/pointers/src/struct2.rs /Users/ykp/Dev/Rust/pointers/src/structs.rs
