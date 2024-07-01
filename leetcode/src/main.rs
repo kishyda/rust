@@ -1,5 +1,4 @@
-mod two_sum;
-mod linked_list_add;
+mod valid_parentheses;
 fn main() {
-    linked_list_add::test();
+  println!("{}", valid_parentheses::is_valid(String::from("()[]{}")));
 }

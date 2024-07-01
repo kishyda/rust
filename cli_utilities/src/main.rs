@@ -4,6 +4,7 @@ use std::fs::File;
 use std::io;
 use std::io::prelude::*;
 use std::path::Path;
+mod lib;
 
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
