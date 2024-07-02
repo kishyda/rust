@@ -22,8 +22,14 @@ pub fn is_valid(s: String) -> bool {
   let finalstring = str1 + &str2;
   println!("{}", finalstring);
   if finalstring == s {
-    true
+    return true;
   } else {
-    false
+    return false;
   }
+}
+
+pub fn input() -> String {
+  let mut input = String::new();
+  std::io::stdin().read_line(&mut input).unwrap();
+  input
 }

@@ -43,9 +43,9 @@ pub fn string_to_equation(string: String) -> Equation {
     string.remove(0);
   }
   Equation {
-    num1: num1,
-    num2: num2,
-    operator: operator,
+    num1,
+    num2,
+    operator,
     rest_of_string: string,
   }
 }

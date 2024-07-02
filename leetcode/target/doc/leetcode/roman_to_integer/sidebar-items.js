@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"enum":["vals"],"fn":["roman_to_int"]};
